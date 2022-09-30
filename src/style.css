@@ -1,0 +1,23 @@
+body {
+    background-color: goldenrod;
+}
+
+.section {
+    border: 2px solid white;
+}
+
+#silhouette {
+    width: 150px;
+    border-radius: 50%;
+}
+.employeeCard {
+    display: grid;
+    flex-basis: 60%;
+    grid-template-columns: 1fr, 1fr ;
+    grid-template-rows: 1fr, 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: left;
+    padding: 1rem;
+}
+
